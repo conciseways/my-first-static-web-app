@@ -17,9 +17,9 @@
   <script>
     (async function name() {
       console.log("hi!!!!")
-      const j = await( await fetch(`/api/httpTrigger1`)).json();
+      const j = await( await fetch(`/api/httpTrigger1`));
       // document.querySelector('#name').textContent = text;
-      console.log("json", j)
+      console.log("json", j, typeof j)
     }())
   </script>
 </body>
