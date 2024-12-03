@@ -1,1 +1,4 @@
-console.log("from static file js")
+(function iffe() {
+    console.log("from static file js")
+})()
+
