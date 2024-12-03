@@ -4,7 +4,7 @@
     const j = await( await fetch(`/api/httpTrigger1`));
     // document.querySelector('#name').textContent = text;
     try {
-        console.log("json!!!!!", j, typeof j)
+        console.log("try out!!!", j, typeof j)
         const out = await j.json()
         console.log("try out!!!", out)
     } catch (error) {
