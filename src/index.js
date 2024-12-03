@@ -5,7 +5,7 @@
     // document.querySelector('#name').textContent = text;
     console.log("json", j, typeof j)
     try {
-        const out = j.json()
+        const out = await j.json()
         console.log("try out!!!", out)
     } catch (error) {
         console.log("ERRR", error)
