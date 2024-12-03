@@ -11,10 +11,13 @@
 <body>
   <main>
     <h1>Vanilla JavaScript App</h1>
+    <h3 id="name"></h3>
   </main>
   <script>
     (async function name() {
       console.log("hi!!!!")
+      const { text } = await( await fetch(`/api/httpTrigger1`)).json();
+      document.querySelector('#name').textContent = text;
     }())
   </script>
 </body>
