@@ -1,4 +1,4 @@
-import axios from './lib/axios'
+import axios from './lib/axios.js'
 (async function iffe() {
     
     const $nameEl = document.getElementById("name")
